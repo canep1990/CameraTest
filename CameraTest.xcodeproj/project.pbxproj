@@ -12,6 +12,8 @@
 		EF068A8E1B7199B700C6F81F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF068A8D1B7199B700C6F81F /* Images.xcassets */; };
 		EF068A911B7199B700C6F81F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF068A8F1B7199B700C6F81F /* LaunchScreen.xib */; };
 		EF068A9D1B7199B800C6F81F /* CameraTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF068A9C1B7199B800C6F81F /* CameraTestTests.m */; };
+		EF068AA81B719C3400C6F81F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF068AA71B719C3400C6F81F /* ViewController.m */; };
+		EF068AAA1B719C3F00C6F81F /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF068AA91B719C3F00C6F81F /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 		EF068A961B7199B800C6F81F /* CameraTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF068A9B1B7199B800C6F81F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF068A9C1B7199B800C6F81F /* CameraTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraTestTests.m; sourceTree = "<group>"; };
+		EF068AA61B719C3400C6F81F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF068AA71B719C3400C6F81F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF068AA91B719C3F00C6F81F /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +83,9 @@
 			children = (
 				EF068A841B7199B700C6F81F /* AppDelegate.h */,
 				EF068A851B7199B700C6F81F /* AppDelegate.m */,
+				EF068AA61B719C3400C6F81F /* ViewController.h */,
+				EF068AA71B719C3400C6F81F /* ViewController.m */,
+				EF068AA91B719C3F00C6F81F /* Storyboard.storyboard */,
 				EF068A8D1B7199B700C6F81F /* Images.xcassets */,
 				EF068A8F1B7199B700C6F81F /* LaunchScreen.xib */,
 				EF068A801B7199B700C6F81F /* Supporting Files */,
@@ -193,6 +201,7 @@
 			files = (
 				EF068A911B7199B700C6F81F /* LaunchScreen.xib in Resources */,
 				EF068A8E1B7199B700C6F81F /* Images.xcassets in Resources */,
+				EF068AAA1B719C3F00C6F81F /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF068AA81B719C3400C6F81F /* ViewController.m in Sources */,
 				EF068A861B7199B700C6F81F /* AppDelegate.m in Sources */,
 				EF068A831B7199B700C6F81F /* main.m in Sources */,
 			);
